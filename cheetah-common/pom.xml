@@ -13,6 +13,11 @@
     <name>cheetah-common</name>
     <packaging>jar</packaging>
     <description>推送系统common模块</description>
-
+    <dependencies>
+        <dependency>
+            <groupId>${project.groupId}</groupId>
+            <artifactId>cheetah-tools</artifactId>
+        </dependency>
+    </dependencies>
 
 </project>

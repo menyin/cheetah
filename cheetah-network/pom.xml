@@ -13,5 +13,14 @@
     <name>cheetah-network</name>
     <packaging>jar</packaging>
     <description>推送系统network模块</description>
-
+    <dependencies>
+        <dependency>
+            <groupId>${project.groupId}</groupId>
+            <artifactId>cheetah-tools</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>io.netty</groupId>
+            <artifactId>netty-all</artifactId>
+        </dependency>
+    </dependencies>
 </project>

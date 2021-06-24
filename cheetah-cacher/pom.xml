@@ -13,5 +13,15 @@
     <name>cheetah-cacher</name>
     <packaging>jar</packaging>
     <description>推送系统cacher模块</description>
-
+    <dependencies>
+        <dependency>
+            <groupId>com.caisheng</groupId>
+            <artifactId>cheetah-monitor</artifactId>
+            <version>${parent.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>redis.clients</groupId>
+            <artifactId>jedis</artifactId>
+        </dependency>
+    </dependencies>
 </project>

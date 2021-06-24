@@ -13,5 +13,18 @@
     <name>cheetah-client</name>
     <packaging>jar</packaging>
     <description>推送系统client模块</description>
-
+    <dependencies>
+        <dependency>
+            <groupId>${project.groupId}</groupId>
+            <artifactId>cheetah-common</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>${project.groupId}</groupId>
+            <artifactId>cheetah-network</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>${project.groupId}</groupId>
+            <artifactId>cheetah-registion</artifactId>
+        </dependency>
+    </dependencies>
 </project>

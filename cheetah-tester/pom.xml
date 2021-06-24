@@ -13,5 +13,10 @@
     <name>cheetah-tester</name>
     <packaging>jar</packaging>
     <description>推送系统tester模块</description>
-
+    <dependencies>
+        <dependency>
+            <groupId>${project.groupId}</groupId>
+            <artifactId>cheetah-client</artifactId>
+        </dependency>
+    </dependencies>
 </project>

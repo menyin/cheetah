@@ -13,5 +13,11 @@
     <name>cheetah-monitor</name>
     <packaging>jar</packaging>
     <description>推送系统monitor模块</description>
-
+<dependencies>
+    <dependency>
+        <groupId>${project.groupId}</groupId>
+        <artifactId>cheetah-tools</artifactId>
+        <version>${parent.version}</version>
+    </dependency>
+</dependencies>
 </project>
